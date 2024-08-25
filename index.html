@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind prac
-
-    </title>
+    <title></title>
     <script src="https://kit.fontawesome.com/31f398c1e3.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.tailwindcss.com"></script>
@@ -18,28 +16,88 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    }
+                    },
+                    fontFamily: {
+                        manrope:["Manrope", "sans-serif"], 
+                    },
                 }
             }
         }
     </script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+
+
+<style>
+
+    .font-manrope{
+        font-family: "Manrope", sans-serif;
+    }
+</style>
 </head>
 
-<body>
+<body class="font-manrope">
 
     <header>
+
+        
+
+        <nav class="flex items-center justify-between p-12  lg:mx-32">
+            <div class="flex items-center">
+                <div class="w-9 h-9 flex items-center justify-center bg-lime-300 rounded-full">
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+                <a href="#" class="text-3xl font-extrabold text-gray-900 ml-2 ">Rinterio</a>
+            </div>
+
+
+
+
+
+    
+
+            <ul class="hidden md:hidden lg:flex space-x-6  ">
+                <li><a href="#" class="text-gray-700 hover:text-black font-extrabold ">Home</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-black">Services</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-black">Portfolio</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-black">Blogs</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-black">Contact Us</a></li>
+            </ul>
+            <div class="hidden md:flex items-center space-x-2 ml-40 lg:flex items-center space-x-4">
+                <a href="#"><i class="fa-solid fa-magnifying-glass w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
+                <a href="#" class="bg-lime-300 text-gray-900 font-bold py-2 px-4 rounded-full hover:bg-lime-400 w-48 flex items-center justify-center gap-2">Book Consult
+
+                    <div class="w-9 h-9 flex items-center justify-center bg-black rounded-full">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                    </div>
+                </a>
+
+                </div>
+            <div class="lg:hidden bg-white border border-solid border-gray-500  rounded-full w-12 h-12 p-3">
+                <i class="fa-solid fa-bars ml-1 text-gray-500"></i>
+            
+
+        </div>
+        </nav>
+
+
+
 
     </header>
 
     <main>
 
+       
     </main>
 
     <footer>
-        
+
     </footer>
 
 
