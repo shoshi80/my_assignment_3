@@ -18,32 +18,33 @@
                         clifford: '#da373d',
                     },
                     fontFamily: {
-                        manrope:["Manrope", "sans-serif"], 
+                        manrope: ["Manrope", "sans-serif"],
                     },
                 }
             }
         }
     </script>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
 
-<style>
-
-    .font-manrope{
-        font-family: "Manrope", sans-serif;
-    }
-</style>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
 <body class="font-manrope">
 
     <header>
+
+        <!-- navbar -->
 
         <nav class="flex items-center justify-between p-12  lg:mx-32">
             <div class="flex items-center">
@@ -61,22 +62,136 @@
                 <li><a href="#" class="text-gray-700 hover:text-black">Contact Us</a></li>
             </ul>
             <div class="hidden md:flex items-center space-x-2 ml-40 lg:flex items-center space-x-4">
-                <a href="#"><i class="fa-solid fa-magnifying-glass w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
-                <a href="#" class="bg-gradient-to-r from-[#ABEF5F] to-[#b0ec6b] text-gray-900 font-bold py-2 px-4 rounded-full hover:bg-lime-400 w-48 flex items-center justify-center gap-2">Book Consult
+                <a href="#"><i
+                        class="fa-solid fa-magnifying-glass w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
+                <a href="#"><i
+                        class="fa-solid fa-cart-shopping w-10 h-10 p-2.5 rounded-full border border-gray-300 text-gray-700"></i></a>
+                <button
+                    class="bg-gradient-to-r from-[#ABEF5F] to-[#b0ec6b] text-gray-900 font-extrabold text-xl  py-2 px-4 rounded-full hover:bg-lime-400 w-52 flex items-center justify-center gap-2">Book
+                    Consult
 
                     <div class="w-9 h-9 flex items-center justify-center bg-black rounded-full">
                         <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
                     </div>
-                </a>
+                </button>
 
-                </div>
+            </div>
             <div class="lg:hidden bg-white border border-solid border-gray-500  rounded-full w-12 h-12 p-3">
                 <i class="fa-solid fa-bars ml-1 text-gray-500"></i>
-            
 
-        </div>
+
+            </div>
         </nav>
+
+
+        <!-- hero section banner -->
+        <section class="mt-8 mx-12 lg:-mt-4">
+            <div>
+                <img class="lg:mx-auto" src="assets/banner.png" alt="building">
+
+                <div class="lg:w-10/12 mx-auto">
+
+                    <h1 class="font-extrabold text-4xl mt-5 text-center lg:text-6xl">
+                        A barn house of this design has a striking appearance
+                    </h1>
+                    <p class="text-lg text-gray-900 mt-6 text-center">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                </div>
+
+                <button
+                    class="bg-gradient-to-r from-[#ABEF5F80] to-[#d6edbc] text-gray-900 font-extrabold text-xl  py-2 px-4 rounded-full hover:bg-lime-400 w-52 flex items-center justify-center gap-2 mt-4 text-center w-full lg:w-52 text-center mx-auto mb-24">View
+                    Details
+
+                    <div class="w-9 h-9 flex items-center justify-center bg-[#ABEF5F] rounded-full">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                    </div>
+                </button>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- about us -->
+        <section class="mt-2 bg-[#F4F4F4]">
+
+            
+                <div class="lg:flex justify-around text-start items-center">
+
+                    <div class=" justify-center items-center text-center mx-auto lg:w-1/2 h-auto lg:text-start ">
+
+
+                        <img class="hidden lg:block -mb-12" src="assets/Vector.png" alt="">
+
+                        <section class="mt-5">
+
+                            <button
+                                class=" bg-white text-gray-700 font-extrabold text-xl  py-2 px-4 rounded-full hover:bg-gray-400 mt-12 w-48 mb-2 lg:ml-9">
+
+                                <i class="fa-solid fa-arrow-right  text-gray-700"></i>
+                                About us
+                            </button>
+
+                        </section>
+
+                        <h1 class="font-extrabold text-4xl mt-5 text-center lg:text-6xl lg:text-start ml-8">
+                            We design thoughtful, liveable spaces
+                        </h1>
+
+                        <p class="text-sm  w-4/6 text-gray-900 mt-4 text-center mx-auto lg:text-start lg:mr-60">
+                            The barn house captivates with its blend of rustic charm and
+                            modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+
+                        <div class="ml-8 mt-9 mb-9">
+
+
+
+                            <div class="bg-white rounded-lg shadow-lg w-11/12 h-40 flex justify-around mb-8 lg:flex lg:justify-normal lg:items-center lg:p-4">
+                                <img class="w-1/12 h-1/4 ml-4 mt-6 lg:w-fit" src="assets/commercial.png" alt="">
+                                <div class="flex flex-col justify-start items-start gap-3 ml-4 p-2">
+                                    <h3 class="font-extrabold text-xl mt-4">Commercial</h3>
+                                    <p class="text-lg text-start">The barn house captivates with its blend of rustic
+                                        charm
+                                        and <br> modern.</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-white rounded-lg shadow-lg w-11/12 h-40 flex justify-around lg:flex lg:justify-normal lg:items-center lg:p-4">
+                                <img class="w-1/12 h-1/4 ml-4 mt-6 lg:w-fit" src="assets/residential.png" alt="">
+                                <div class="flex flex-col justify-start items-start gap-3 ml-4 p-2">
+                                    <h3 class="font-extrabold text-xl mt-4">Residential</h3>
+                                    <p class="text-lg text-start">The barn house captivates with its blend of rustic
+                                        charm
+                                        and <br> modern.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div>
+
+                        <img class="w-9/12 ml-12 mt-4 mb-48   lg:w-auto lg:h-auto mr-10 lg:mt-72" src="assets/Rectangle.png" alt="">
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+        </section>
 
 
 
@@ -85,7 +200,7 @@
 
     <main>
 
-       
+
     </main>
 
     <footer>
